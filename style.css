@@ -1,0 +1,62 @@
+/* 1. Feladat: Tároló és elemek alapbeállításai */
+.container {
+    display: flex;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .box {
+    flex: 1;
+    height: 100%;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  /* 2. Feladat: Flex arányok zöld: 1, sárga: 2, lila: 1  */
+  .green {
+    flex: 1;
+  }
+  
+  .yellow {
+    flex: 2;
+  }
+  
+  .purple {
+    flex: 1;
+  }
+  
+  /* 3. Feladat: Elemek sorrendje: lila, sárga, zöld  */
+  .green {
+    order: 3;
+  }
+  
+  .yellow {
+    order: 2;
+  }
+  
+  .purple {
+    order: 1;
+  }
+  
+  /* 4. Feladat: Elemek horizontális sorrendje: zöld, lila, sárga  */
+  .green {
+    order: 1;
+  }
+  
+  .yellow {
+    order: 3;
+  }
+  
+  .purple {
+    order: 2;
+  }
